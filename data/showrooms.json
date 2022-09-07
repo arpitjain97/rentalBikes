@@ -1,0 +1,75 @@
+[
+    {
+        "name": "Ashay Motors",
+        "brand":"Tata",
+        "website":"http://www.ashaymotors.com",
+        "phone":"9876543212",
+        "email":"ashay@gmail.com",
+        "address":"madhapur hyderabad"
+
+    },
+    {
+        "name": "Drishti Motors",
+        "brand":"Mahendra",
+        "website":"http://www.drishtimotors.com",
+        "phone":"9876543212",
+        "email":"drishti@gmail.com",
+        "address":"madhapur hyderabad"
+
+    },
+    {
+        "name": "Praveen Motors",
+        "brand":"Toyota",
+        "website":"http://www.praveenmotors.com",
+        "phone":"9876543212",
+        "email":"praveen@gmail.com",
+        "address":"madhapur hyderabad"
+
+    },
+    {
+        "name": "Madhu Motors",
+        "brand":"Tata",
+        "website":"http://www.madhumotors.com",
+        "phone":"9876543212",
+        "email":"madhu@gmail.com",
+        "address":"madhapur hyderabad"
+
+    },
+    {
+        "name": "Arpit Motors",
+        "brand":"Morris Garages",
+        "website":"http://www.arpitmotors.com",
+        "phone":"9876543212",
+        "email":"arpit@gmail.com",
+        "address":"madhapur hyderabad"
+
+    },
+    {
+        "name": "Udit Motors",
+        "brand":"KIA",
+        "website":"http://www.uditmotors.com",
+        "phone":"9876543212",
+        "email":"udit@gmail.com",
+        "address":"madhapur hyderabad"
+
+    },
+    {
+        "name": "Tingi Motors",
+        "brand":"Maruti Suzuki",
+        "website":"http://www.tingimotors.com",
+        "phone":"9876543212",
+        "email":"tingi@gmail.com",
+        "address":"madhapur hyderabad"
+
+    },
+    {
+        "name": "Chaman Motors",
+        "brand":"Toyota",
+        "website":"http://www.chamanmotors.com",
+        "phone":"9876543212",
+        "email":"chaman@gmail.com",
+        "address":"madhapur hyderabad"
+
+    }
+
+]
