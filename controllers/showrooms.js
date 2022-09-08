@@ -1,7 +1,7 @@
 const Showroom = require('../models/Showroom');
 exports.getShowrooms = async (req,res,next) => {
     try {
-    const showrooms = await Showroom.find();
+    const showrooms = await Showroom.find().populate('bikes');
     
     res.status(200).send({success:true,count:showrooms.length,data:showrooms});
     } catch (error) {

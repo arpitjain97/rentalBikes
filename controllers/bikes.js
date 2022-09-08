@@ -9,12 +9,11 @@ exports.getBikes = async (req,res,next) => {
             return res.status(400).json({success:false,data:{}});
         }
         bikes = await Bike.find({showroom:req.params.showroomId});
-        console.log(bikes)
     }
     else{
-        bikes = await Bike.find();
+        bikes = await Bike.find().populate({path:'showroom', select: 'name brand'});
     }
-    console.log('here',req.params.showroomId)
+
     res.status(200).send({success:true,count:bikes.length,data:bikes});
     } catch (error) {
         res.status(400).send(error); 
@@ -22,7 +21,7 @@ exports.getBikes = async (req,res,next) => {
 }
 exports.getBike = async (req,res,next) => {
     try {
-    const bike = await Bike.findById(req.params.id);
+    const bike = await Bike.findById(req.params.id).populate({path:'showroom', select: 'name brand'});
     if(!bike){
         return res.status(400).json({success:false,data:{}});
     }

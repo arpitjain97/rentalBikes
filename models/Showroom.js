@@ -39,6 +39,14 @@ const ShowroomSchema = new mongoose.Schema({
         type: Date,
         default: Date.now
       }
+},{
+  toJSON:{virtuals:true},
+  toObject:{virtuals:true}
 });
-
+ShowroomSchema.virtual('bikes',{
+  ref:'Bike',
+  localField:'_id',
+  foreignField:'showroom',
+  justOne:false
+})
 module.exports = mongoose.model('Showroom',ShowroomSchema);
